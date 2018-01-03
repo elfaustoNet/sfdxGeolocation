@@ -1,7 +1,7 @@
 <aura:component controller="AccountController">
     <aura:registerEvent name="accountsLoaded" type="c:AccountsLoaded"/>
     <ltng:require styles="/reousrce/leaflet/leaflet.css" scripts="/resource/leaflet/leaflet.js" afterScriptsLoaded="{!c.doInit}"/>
-
+<!-- this is a test comment -->
     <aura:attribute name="accounts" type="Account[]"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
